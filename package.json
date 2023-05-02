@@ -1,0 +1,32 @@
+{
+    "private": true,
+    "scripts": {
+      "dev": "concurrently \"cd huco1 && yarn dev\" \"cd chatbot && yarn dev\"",
+      "build": "lerna run build --parallel",
+      "start": "lerna run start --parallel",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+  "dependencies": {
+    "firebase": "^9.15.0"
+  },
+  "name": "huco1",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "lerna": "^6.6.1"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naveenkumar035/HuCo1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naveenkumar035/HuCo1/issues"
+  },
+  "homepage": "https://github.com/naveenkumar035/HuCo1#readme"
+}
