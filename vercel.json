@@ -2,8 +2,8 @@
     "build": {
       "env": {
         "CI": "true"
-      },
-      "command": "pip install -r requirements.txt && python app.py"
+      }
+      
     },
     "routes": [
       { "src": "/.*", "dest": "/app.py" }
